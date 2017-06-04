@@ -12,7 +12,7 @@ namespace LogisticMultiple
     {
         static void Main(string[] args)
         {
-            double[] ti = Vector.Interval(0.0, 80.0, 2.0);
+            double[] ti = Vector.Interval(0.0, 40.0, 2.0);
             string distributionType = "gamma";
             double[] pInit = new[] { 15.0, 30.0 };
 
